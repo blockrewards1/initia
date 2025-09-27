@@ -107,7 +107,7 @@ message TableEntry {
   string key = 2;
   string value = 3;
   bytes key_bytes = 4;
-  bytes value_bytes = 5;
+  //bytes value_bytes = 5;
 }
 
 // UpgradePolicy is the policy for upgrading a move module.
